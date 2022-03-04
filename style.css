@@ -1,0 +1,158 @@
+/* Style Sheet for my webpage */
+
+/* Body a grey back ground */
+body{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    background-image: url(images/kat_background.png);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    padding: 20px;
+    background-color: white;
+}
+
+/* Header */
+.header{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    padding: 20px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    text-align: left;
+    /* background-color: white; */
+    color: black;
+}
+
+/* Navigation bar */
+
+/* Nav bar style */
+.navbar{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    position: center;
+    text-align: left;
+    width: auto;
+    /* background-color: white; */
+    font-size: 20px;
+    padding: 20px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Internal links */
+.siteLinks {
+    display: inline;
+    width: auto;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* create two equal columns that float next to each other */
+
+/* left column */
+.leftColumn{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    /* background-color: white; */
+    float: left;
+    width: 35%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* right column */
+.rightColumn{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    /* background-color: white; */
+    float: right;
+    width: 65%;
+    padding: 20px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Card for sections */
+.card_out {
+    border-top:20px solid #ccc;
+    /* box-sizing: border-box; */
+    background-color: #eee;
+    padding: 20px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* Card for sections */
+.card {
+    box-sizing: border-box;
+    /* border: 1px solid #ccc; */
+    background-color: #eee;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* flex row - keeps website inline */
+.row {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* a franme for an image */
+.imgae_frame {
+    width: 50%;
+    height: 200px;
+  }
+img {
+    width: 50%;
+    height: 50%;
+  }
+
+/* footer */
+#footer{
+    box-sizing: border-box;
+    font-style: bold black;
+    /* border: 1px solid black; */
+    padding: 20px;
+    text-align: center;
+    /* background-color: white; */
+    margin-top: 5px;
+}
+
+
+/* code i was looking at from w3schools for making collapsible boxes
+need javascript - will update as site develops futher 
+see w3schools for code - snippet below */
+
+/* Style the button that is used to open and close the collapsible content */
+/* .collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  /* .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  } */ 
+
+
